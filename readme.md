@@ -13,3 +13,5 @@ Angular Frontend: The frontend of the application is built using Angular, a popu
 .
 # Getting Started
 To get started with the Covid Tracking Project, you'll need to have Angular CLI and .NET installed on your machine. Once you have these prerequisites, you can clone the repository and install the necessary dependencies.
+
+
