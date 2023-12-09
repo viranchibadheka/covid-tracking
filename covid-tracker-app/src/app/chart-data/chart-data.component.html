@@ -1,0 +1,27 @@
+<div *ngIf="chartData.length > 0">
+    <!-- This div is conditionally displayed when chartData has elements -->
+  
+    <div style="display: block;" class="chart-container">
+      <!-- This div wraps the canvas element to contain the chart -->
+  
+      <canvas baseChart
+              [datasets]="barChartData"
+              [labels]="barChartLabels"
+              chartType="bar">
+      </canvas>
+
+      <!-- <canvas  baseChart
+      [datasets]="[
+        { data: [10, 20, 30], label: 'Positive' },
+        { data: [5, 15, 25], label: 'Negative' }
+      ]"
+      [labels]="['Label1', 'Label2', 'Label3']"
+      [options]="{
+        responsive: true,
+      }"
+      chartType="bar">
+</canvas> -->
+      <!-- The canvas element is where the chart is rendered -->
+    </div>
+  
+  </div>

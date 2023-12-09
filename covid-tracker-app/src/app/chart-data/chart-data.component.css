@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    margin-right: 10px;
+  }
+  
+  .select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  
+  .chart-container {
+    width: 600px; /* Adjust as needed */
+    height: 2=600px;
+    /* margin: 0 auto; */
+  }
