@@ -1,8 +1,9 @@
-Covid Tracking Project
+#Covid Tracking Project
 The Covid Tracking Project is a web application that provides data on the number of positive and negative Covid-19 cases for a selected state and date range. The frontend of the application is developed using Angular, while the backend is powered by .NET.
-Features
-State Selection: Users can select a specific state to view Covid-19 data.
-Date Range Selection: Users can specify a date range to narrow down the data.
+#Features
+- State Selection: Users can select a specific state to view Covid-19 data.
+- Date Range Selection: Users can specify a date range to narrow down the data.
+- The data fetched from the API is shown in a well defined chart.
 Positive and Negative Case Data: The application displays the number of positive and negative Covid-19 cases for the selected state and date range.
 Angular Frontend: The frontend of the application is built using Angular, a popular JavaScript framework known for its component-based architecture and data binding capabilities
 6
