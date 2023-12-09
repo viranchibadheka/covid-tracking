@@ -1,0 +1,19 @@
+<div class="container">
+  <label for="state" class="label">Choose a state:</label>
+  <select id="state" name="states" [(ngModel)]="selectedState" class="select">
+    <option *ngFor="let state of stateList" [value]="state.code" class="option">{{ state.name }}</option>
+  </select>
+  <!-- Start Date Input -->
+  <div class="date-input">
+    <label for="startDate" class="label">Start Date (YYYYMMDD):</label>
+    <input type="text" id="startDate" name="startDate" [(ngModel)]="startDate" class="input">
+  </div>
+
+  <!-- End Date Input -->
+  <div class="date-input">
+    <label for="endDate" class="label">End Date (YYYYMMDD):</label>
+    <input type="text" id="endDate" name="endDate" [(ngModel)]="endDate" class="input">
+  </div>
+  <button (click)="fetchData()" class="button">Submit</button>
+  <app-chart-data [chartData]="chartData"></app-chart-data>
+</div>
